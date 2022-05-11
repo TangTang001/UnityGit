@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | testMap</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="Build/UnityLoader.js"></script>
+    <script src="Qt/qwebchannel.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Build.json");
+    </script>
+	
+	<script>
+        var backend;
+        window.onload = function () {
+            if (typeof qt != 'undefined') {
+                new QWebChannel(qt.webChannelTransport, function (channel) {
+                    backend = channel.objects.backend;
+                    backend.qmlSignal.connect(function (signal) {
+                        alert("signal from qml is:" + signal);
+                        receiveqQmlMsg(signal);
+
+                    });
+                });
+            }
+        }
+
+        function clickEvent(content) {
+            alert(content);
+            backend.receiveMsg(content);
+        }
+
+        function receiveqQmlMsg(content) {
+            unityInstance.SendMessage("Canvas", "uReceiveMsg", content);
+        }
+
+	</script>
+
+
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 100%; height: 100%"></div>
+    </div>
+  </body>
+</html>

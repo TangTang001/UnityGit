@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/">
+        <file alias="UnityBuild/Build/Build.data.unityweb">UnityBuild/Build/Build.data.unityweb</file>
+        <file alias="UnityBuild/Build/Build.json">UnityBuild/Build/Build.json</file>
+        <file alias="UnityBuild/Build/Build.wasm.code.unityweb">UnityBuild/Build/Build.wasm.code.unityweb</file>
+        <file alias="UnityBuild/Build/Build.wasm.framework.unityweb">UnityBuild/Build/Build.wasm.framework.unityweb</file>
+        <file alias="UnityBuild/index.html">UnityBuild/index.html</file>
+        <file alias="UnityBuild/TemplateData/favicon.ico">UnityBuild/TemplateData/favicon.ico</file>
+        <file alias="UnityBuild/TemplateData/fullscreen.png">UnityBuild/TemplateData/fullscreen.png</file>
+        <file alias="UnityBuild/TemplateData/progressEmpty.Dark.png">UnityBuild/TemplateData/progressEmpty.Dark.png</file>
+        <file alias="UnityBuild/TemplateData/progressEmpty.Light.png">UnityBuild/TemplateData/progressEmpty.Light.png</file>
+        <file alias="UnityBuild/TemplateData/progressFull.Dark.png">UnityBuild/TemplateData/progressFull.Dark.png</file>
+        <file alias="UnityBuild/TemplateData/progressFull.Light.png">UnityBuild/TemplateData/progressFull.Light.png</file>
+        <file alias="UnityBuild/TemplateData/progressLogo.Dark.png">UnityBuild/TemplateData/progressLogo.Dark.png</file>
+        <file alias="UnityBuild/TemplateData/progressLogo.Light.png">UnityBuild/TemplateData/progressLogo.Light.png</file>
+        <file alias="UnityBuild/TemplateData/style.css">UnityBuild/TemplateData/style.css</file>
+        <file alias="UnityBuild/TemplateData/webgl-logo.png">UnityBuild/TemplateData/webgl-logo.png</file>
+    </qresource>
+</RCC>

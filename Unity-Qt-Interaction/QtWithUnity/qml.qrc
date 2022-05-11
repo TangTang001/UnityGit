@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>UnityBuild/Build/Build.data.unityweb</file>
+        <file>UnityBuild/Build/Build.json</file>
+        <file>UnityBuild/Build/Build.wasm.code.unityweb</file>
+        <file>UnityBuild/Build/Build.wasm.framework.unityweb</file>
+        <file>UnityBuild/Build/UnityLoader.js</file>
+        <file>UnityBuild/Qt/qwebchannel.js</file>
+        <file>UnityBuild/index.html</file>
+        <file>UnityBuild/TemplateData/favicon.ico</file>
+        <file>UnityBuild/TemplateData/fullscreen.png</file>
+        <file>UnityBuild/TemplateData/progressEmpty.Dark.png</file>
+        <file>UnityBuild/TemplateData/progressEmpty.Light.png</file>
+        <file>UnityBuild/TemplateData/progressFull.Dark.png</file>
+        <file>UnityBuild/TemplateData/progressFull.Light.png</file>
+        <file>UnityBuild/TemplateData/progressLogo.Dark.png</file>
+        <file>UnityBuild/TemplateData/progressLogo.Light.png</file>
+        <file>UnityBuild/TemplateData/style.css</file>
+        <file>UnityBuild/TemplateData/UnityProgress.js</file>
+        <file>UnityBuild/TemplateData/webgl-logo.png</file>
+    </qresource>
+</RCC>
